@@ -212,7 +212,7 @@ nav a[href="https://github.com/adityasahu1471"] {
   height: 500px;
   border-radius: 50%;
   object-fit: cover;
-  mix-blend-mode: lighten;
+
   filter: drop-shadow(0 0 40px rgba(141, 74, 255, 0.4));
 }
 
