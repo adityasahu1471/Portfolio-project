@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Portfolio</title>
+  </head>
+  <body class="font-">
+    <header>
+      <div class="flex justify-space items-center py-2 px-4">
+        <div>
+          <p class="name-size white"><bold>My Portfolio</bold></p>
+        </div>
+        <nav class="flex gap-1">
+          <a
+            href="https://github.com/adityasahu1471"
+            target="_blank"
+            class="white remove-underline px-4 py-1"
+          >
+            <i class="fa-brands fa-github"></i> <span>Github</span>
+          </a>
+          <a href="" target="_blank" class="white remove-underline px-4 py-1">
+            <i class="fa-brands fa-linkedin"></i> <span>Linkedin</span>
+          </a>
+          <a
+            href="mailto:adityasahuoff@gmail.com"
+            target="_blank"
+            class="white remove-underline px-4 py-1"
+          >
+            <i class="fa-regular fa-envelope"></i><span> Email</span>
+          </a>
+        </nav>
+      </div>
+
+      <section class="profile-section">
+        <div class="text">
+          <p class="greeting-label">Welcome to my portfolio</p>
+          <h2>Hi, I'm Aditya 👋</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem ipsam
+            assumenda est perspiciatis labore quasi, iure dignissimos, libero,
+            omnis sint necessitatibus ad. Hic expedita eligendi tenetur quisquam
+            id quaerat alias cumque, autem voluptatem in iure ut laudantium
+            tempora cupiditate voluptate est nemo impedit, quidem iusto,
+            provident aperiam.
+          </p>
+          <div class="links">
+            <a href="#skills" class="remove-underline">
+              <i class="fa-solid fa-code"></i>
+              <span>Skills</span>
+            </a>
+            <a
+              href="https://github.com/adityasahu1471"
+              class="remove-underline"
+            >
+              <i class="fa-solid fa-pen"></i>
+              <span>Previous projects</span>
+            </a>
+            <a href="#contact" class="remove-underline">
+              <i class="fa-solid fa-envelope"></i>
+              <span>Contact</span>
+            </a>
+          </div>
+        </div>
+        <div class="profile">
+          <img src="images/" alt="Profile pic" />
+        </div>
+      </section>
+
+      <section id="skills" class="skills-section">
+        <h2>Skills</h2>
+        <div class="text">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates,
+          perspiciatis iure distinctio quidem aperiam necessitatibus omnis
+          possimus excepturi amet quos rerum?
+        </div>
+        <div class="cells">
+          <div class="cell">
+            <img src="images/html-logo.webp" alt="html logo" />
+            <span>HTML</span>
+          </div>
+          <div class="cell">
+            <img src="images/css-logo.webp" alt="css logo" />
+            <span>CSS</span>
+          </div>
+          <div class="cell">
+            <img src="images/javascript-logo.webp" alt="javascript logo" />
+            <span>JavaScript</span>
+          </div>
+          <div class="cell">
+            <img src="images/node-logo.webp" alt="node logo" />
+            <span>Node.js</span>
+          </div>
+          <div class="cell">
+            <img src="images/react-logo.webp" alt="react logo" />
+            <span>React.js</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact-form-section padding-section" id="contact">
+        <div class="flex justify-center">
+          <form action="" class="form-container flex flex-column gap-1">
+            <h2 class="font-lg white">Contact Me</h2>
+            <input type="text" name="name" id="name" placeholder="Name" />
+            <input type="text" name="topic" id="topic" placeholder="Topic" />
+            <textarea
+              name="message"
+              id="message"
+              placeholder="Send Your thoughts..."
+            ></textarea>
+            <button class="btn-white" type="submit">Send Message</button>
+          </form>
+        </div>
+      </section>
+    </header>
+    <main></main>
+    <footer></footer>
+  </body>
+</html>
